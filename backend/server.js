@@ -8,8 +8,14 @@ dotenv.config();
 
 const app = express();
 app.use(helmet());
-app.use(cors({ origin: process.env.CLIENT_URL || "http://localhost:5173" }));
-app.use(express.json());
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://riyadvi-software-revamp.vercel.app"
+];
+
+app.use(cors({
+  origin: allowedOrigins
+}));app.use(express.json());
 
 const Lead = mongoose.model("Lead", new mongoose.Schema({
   type:{type:String,required:true},
