@@ -8,10 +8,18 @@ dotenv.config();
 
 const app = express();
 app.use(helmet());
+
 const allowedOrigins = [
   "http://localhost:5173",
+  "http://localhost:5174",
   "https://riyadvi-software-revamp.vercel.app"
 ];
+
+app.use(
+  cors({
+    origin: allowedOrigins,
+  })
+);
 
 app.use(cors({
   origin: allowedOrigins
