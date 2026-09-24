@@ -1,0 +1,5 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import { services } from "../data/content";
+import SectionTitle from "../components/SectionTitle";
+export default function Services(){return <div className="page container"><div className="page-hero"><div><div className="eyebrow">CAPABILITIES</div><h1>Digital solutions with a purpose.</h1><p>Reusable technology, thoughtful design and interactive experiences that can grow with the business.</p></div><div className="page-orbit">R</div></div><SectionTitle eyebrow="SERVICES" title="Built as systems, not isolated deliverables."/><div className="service-list">{services.map((s,i)=><Link to={"/services/"+s.slug} className="service-row" key={s.slug}><span>0{i+1}</span><div><h2>{s.title}</h2><p>{s.short}</p></div><b>↗</b></Link>)}</div></div>}
