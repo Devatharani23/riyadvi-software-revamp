@@ -8,12 +8,155 @@ export const services = [
 ];
 
 export const projects = [
-  { slug:"puratap", client:"Puratap", industry:"Water & Home", title:"A clearer digital journey for a growing service brand.", summary:"A conversion-focused digital experience built around trust, product discovery and service enquiries.", tech:["React","Node.js","UX"], results:["Clearer navigation","Lead-ready enquiry flow","Responsive experience"] },
-  { slug:"wanaromah", client:"Wanaromah Perfumers", industry:"Beauty & Lifestyle", title:"A premium digital identity for a fragrance brand.", summary:"A visual commerce concept combining editorial storytelling with a premium product-first interface.", tech:["React","UI/UX","Motion"], results:["Premium visual system","Product storytelling","Mobile-first layout"] },
-  { slug:"laxmi-astro-ai", client:"Laxmi Astro AI", industry:"AI & Consumer", title:"Making a complex AI-led product easier to explore.", summary:"An approachable interface for an AI-powered consumer experience with strong information hierarchy.", tech:["React","AI UX","API"], results:["Simplified flows","Scalable component system","Interactive experience"] },
-  { slug:"tony-guy", client:"Tony & Guy", industry:"Beauty", title:"A polished digital presence for a service-led brand.", summary:"A modern experience that puts services, locations and conversion paths at the center.", tech:["React","UX","CMS"], results:["Service discovery","Stronger calls to action","Responsive design"] },
-  { slug:"studio11", client:"Studio11", industry:"Beauty", title:"A visual-first service discovery experience.", summary:"A brand-led interface designed to make service exploration quick and visually engaging.", tech:["React","Motion","Design System"], results:["Service clarity","Reusable UI","Fast interaction"] },
-  { slug:"sivam-physio-care", client:"Sivam Physio Care", industry:"Healthcare", title:"A calmer digital journey for healthcare discovery.", summary:"An accessible service experience focused on trust, information and easy contact.", tech:["React","Accessibility","Forms"], results:["Clear service paths","Accessible structure","Lead-ready forms"] }
+  {
+    slug: "puratap",
+    client: "Puratap",
+    industry: "Water & Home",
+    title: "A clearer digital journey for a growing service brand.",
+    summary:
+      "A conversion-focused digital experience built around trust, product discovery and service enquiries.",
+    tech: ["React", "Node.js", "UX"],
+    results: [
+      "Clearer navigation",
+      "Lead-ready enquiry flow",
+      "Responsive experience",
+    ],
+  },
+
+  {
+    slug: "wanaromah",
+    client: "Wanaromah Perfumers",
+    industry: "Beauty & Lifestyle",
+    title: "A premium digital identity for a fragrance brand.",
+    summary:
+      "A visual commerce concept combining editorial storytelling with a premium product-first interface.",
+    tech: ["React", "UI/UX", "Motion"],
+    results: [
+      "Premium visual system",
+      "Product storytelling",
+      "Mobile-first layout",
+    ],
+  },
+
+  {
+    slug: "laxmi-astro-ai",
+    client: "Laxmi Astro AI",
+    industry: "AI & Consumer",
+    title: "Making a complex AI-led product easier to explore.",
+    summary:
+      "An approachable interface for an AI-powered consumer experience with strong information hierarchy.",
+    tech: ["React", "AI UX", "API"],
+    results: [
+      "Simplified flows",
+      "Scalable component system",
+      "Interactive experience",
+    ],
+  },
+
+  {
+    slug: "tony-guy",
+    client: "Tony & Guy",
+    industry: "Beauty",
+    title: "A polished digital presence for a service-led brand.",
+    summary:
+      "A modern experience that puts services, locations and conversion paths at the center.",
+    tech: ["React", "UX", "CMS"],
+    results: [
+      "Service discovery",
+      "Stronger calls to action",
+      "Responsive design",
+    ],
+  },
+
+  {
+    slug: "studio11",
+    client: "Studio11",
+    industry: "Beauty",
+    title: "A visual-first service discovery experience.",
+    summary:
+      "A brand-led interface designed to make service exploration quick and visually engaging.",
+    tech: ["React", "Motion", "Design System"],
+    results: [
+      "Service clarity",
+      "Reusable UI",
+      "Fast interaction",
+    ],
+  },
+
+  {
+    slug: "sivam-physio-care",
+    client: "Sivam Physio Care",
+    industry: "Healthcare",
+    title: "A calmer digital journey for healthcare discovery.",
+    summary:
+      "An accessible service experience focused on trust, information and easy contact.",
+    tech: ["React", "Accessibility", "Forms"],
+    results: [
+      "Clear service paths",
+      "Accessible structure",
+      "Lead-ready forms",
+    ],
+  },
+
+  {
+    slug: "pearl-housing",
+    client: "Pearl Housing",
+    industry: "Real Estate",
+    title: "A digital property experience built around discovery.",
+    summary:
+      "A structured property experience designed to help users explore projects, understand offerings and enquire easily.",
+    tech: ["React", "UI/UX", "API"],
+    results: [
+      "Property discovery",
+      "Clear project presentation",
+      "Enquiry-ready experience",
+    ],
+  },
+
+  {
+    slug: "nugenica-biotech-lab",
+    client: "Nugenica Biotech Lab",
+    industry: "Biotechnology",
+    title: "Making scientific information easier to explore.",
+    summary:
+      "A professional digital experience focused on presenting biotechnology services and information with clarity.",
+    tech: ["React", "UX", "Content"],
+    results: [
+      "Clear information hierarchy",
+      "Service presentation",
+      "Responsive interface",
+    ],
+  },
+
+  {
+    slug: "visdoc",
+    client: "VisDoc",
+    industry: "Healthcare Technology",
+    title: "A streamlined digital experience for healthcare technology.",
+    summary:
+      "A product-focused interface designed to simplify healthcare information, service discovery and user journeys.",
+    tech: ["React", "API", "UX"],
+    results: [
+      "Simplified navigation",
+      "Product-focused experience",
+      "Scalable UI structure",
+    ],
+  },
+
+  {
+    slug: "cube-dental",
+    client: "Cube Dental",
+    industry: "Dental Care",
+    title: "A modern patient journey for a dental care brand.",
+    summary:
+      "A clean digital experience connecting service discovery, trust-building content and patient enquiries.",
+    tech: ["React", "Forms", "Accessibility"],
+    results: [
+      "Clear service discovery",
+      "Patient-friendly structure",
+      "Lead-ready contact flow",
+    ],
+  },
 ];
 
 export const posts = [
